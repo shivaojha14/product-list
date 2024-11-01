@@ -1,0 +1,76 @@
+/* src/pages/ProductPage.css */
+
+.product-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6; /* Light gray background for the page */
+    padding: 2rem;
+  }
+  
+  .product-card {
+    max-width: 800px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .back-button {
+    color: #3b82f6; /* Tailwind blue-500 */
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+    align-self: flex-start;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #1f2937; /* Dark gray for title */
+  }
+  
+  .product-description {
+    font-size: 1rem;
+    color: #4b5563; /* Gray color */
+    margin-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  .product-category,
+  .product-price,
+  .product-rating {
+    font-size: 1rem;
+    color: #6b7280; /* Gray */
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .product-price {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937; /* Darker gray for price */
+  }
+  
+  .rating-star {
+    color: #fbbf24; /* Yellow for rating star */
+    margin-right: 0.25rem;
+  }
+  
